@@ -44,7 +44,7 @@ public class Command_stfu extends DarthCraftCommand
             return warn(DC_Messages.ALREADY_MUTED);
         }
 
-        util.adminAction(sender, DC_Messages.MUTING + player.getName());
+        util.adminAction(player.getName() + DC_Messages.MUTE_WITH_FORCE;
         info.setMuted(true);
         return true;
     }
