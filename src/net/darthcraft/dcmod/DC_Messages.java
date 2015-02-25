@@ -19,6 +19,7 @@ public class DC_Messages
     public static final String ALREADY_BANNED = ChatColor.DARK_RED + "The player has already been banned - Sorry :)";
     public static final String CANNOT_KICK_PLAYER = ChatColor.DARK_RED + "You cannot kick this player. Please contact a host.";
     public static final String MUTING = "Muting ";
+    public static final String MUTING_WITH_FORCE = " has been muted with brute force!";
     public static final String CANNOT_MUTE_PLAYER = ChatColor.DARK_RED + "You are unable to mute the following user... Abort mission!";
     public static final String ALREADY_MUTED = ChatColor.DARK_RED + "The following user is already muted!  If you are trying to remove the mute, use /unmute";
     public static final String INVALID_DATE = ChatColor.DARK_RED + "You have entered an invalid expiry date.  Try again..";
